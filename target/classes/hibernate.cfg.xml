@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">root</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/medication_platform?useSSL=false</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MariaDB53Dialect</property>
+        <property name="spring.jpa.hibernate.naming-strategy">org.hibernate.cfg.ImprovedNamingStrategy</property>
+        <property name="hibernate.current_session_context_class">thread</property>
+        <property name="hbm2ddl.auto">update</property>
+        <property name="hibernate.show_sql">true</property>
+
+        <mapping class="entities.Medication"/>
+        <mapping class="entities.Prescription"/>
+    </session-factory>
+</hibernate-configuration>
