@@ -11,6 +11,7 @@ import java.util.Date;
 import java.util.List;
 
 import static grpc.MedicationServiceGrpc.*;
+import static grpc.MedicationServiceOuterClass.*;
 
 public class MedicationService extends MedicationServiceImplBase
 {
@@ -38,6 +39,28 @@ public class MedicationService extends MedicationServiceImplBase
         }
 
         responseObserver.onNext(response.build());
+        responseObserver.onCompleted();
+    }
+
+    @Override
+    public void taken(MedicationTaken request,
+            StreamObserver<EmptyMessage> responseObserver)
+    {
+        String medicationName = request.getMedicationName();
+        System.out.println("Patient took medication: " + medicationName);
+
+        responseObserver.onNext(EmptyMessage.newBuilder().build());
+        responseObserver.onCompleted();
+    }
+
+    @Override
+    public void notTaken(MedicationNotTaken request,
+            StreamObserver<EmptyMessage> responseObserver)
+    {
+        String medicationName = request.getMedicationName();
+        System.out.println("Patient did not take medication: " + medicationName);
+
+        responseObserver.onNext(EmptyMessage.newBuilder().build());
         responseObserver.onCompleted();
     }
 }
