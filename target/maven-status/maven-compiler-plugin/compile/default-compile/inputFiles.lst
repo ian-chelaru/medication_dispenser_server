@@ -1,2 +1,9 @@
+D:\IdeaProjects\medication_dispenser_server\src\main\java\dao\hibernate\HibernateMedicationDao.java
+D:\IdeaProjects\medication_dispenser_server\src\main\java\dao\hibernate\util\HibernateUtil.java
 D:\IdeaProjects\medication_dispenser_server\src\main\java\grpc\MedicationServiceGrpc.java
+D:\IdeaProjects\medication_dispenser_server\src\main\java\dao\hibernate\HibernatePrescriptionDao.java
+D:\IdeaProjects\medication_dispenser_server\src\main\java\entities\Prescription.java
+D:\IdeaProjects\medication_dispenser_server\src\main\java\GRPCServer.java
+D:\IdeaProjects\medication_dispenser_server\src\main\java\services\MedicationService.java
 D:\IdeaProjects\medication_dispenser_server\src\main\java\grpc\MedicationServiceOuterClass.java
+D:\IdeaProjects\medication_dispenser_server\src\main\java\entities\Medication.java

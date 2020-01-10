@@ -7,11 +7,11 @@
         <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password">root</property>
-        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/medication_platform?useSSL=false</property>
+        <property name="hibernate.connection.url">jdbc:mysql://mysql-standalone:3306/medication_platform?allowPublicKeyRetrieval=true&amp;useSSL=false</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MariaDB53Dialect</property>
         <property name="spring.jpa.hibernate.naming-strategy">org.hibernate.cfg.ImprovedNamingStrategy</property>
         <property name="hibernate.current_session_context_class">thread</property>
-        <property name="hbm2ddl.auto">update</property>
+        <property name="hbm2ddl.auto">validate</property>
         <property name="hibernate.show_sql">true</property>
 
         <mapping class="entities.Medication"/>

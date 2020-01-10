@@ -1,18 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="666b114c-2133-4862-8390-9b71b6bf163b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="666b114c-2133-4862-8390-9b71b6bf163b" name="Default Changelist" comment="minor changes to work on docker">
+      <change afterPath="$PROJECT_DIR$/.idea/medication_dispenser_server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/grpc/MedicationServiceGrpc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/grpc/MedicationServiceGrpc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/grpc/MedicationServiceOuterClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/grpc/MedicationServiceOuterClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/hibernate/HibernatePrescriptionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/hibernate/HibernatePrescriptionDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Medication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Medication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Prescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Prescription.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/services/MedicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/MedicationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/proto/MedicationService.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/proto/MedicationService.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GRPCServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GRPCServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/medication_dispenser_server.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/hibernate/HibernatePrescriptionDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/hibernate/HibernatePrescriptionDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Medication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/Medication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/entities/Prescription.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/Prescription.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/grpc/MedicationServiceGrpc$MedicationServiceBaseDescriptorSupplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/grpc/MedicationServiceGrpc$MedicationServiceBaseDescriptorSupplier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/grpc/MedicationServiceGrpc$MedicationServiceBlockingStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/grpc/MedicationServiceGrpc$MedicationServiceBlockingStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/grpc/MedicationServiceGrpc$MedicationServiceFileDescriptorSupplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/grpc/MedicationServiceGrpc$MedicationServiceFileDescriptorSupplier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/grpc/MedicationServiceGrpc$MedicationServiceFutureStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/grpc/MedicationServiceGrpc$MedicationServiceFutureStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/grpc/MedicationServiceGrpc$MedicationServiceImplBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/grpc/MedicationServiceGrpc$MedicationServiceImplBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/grpc/MedicationServiceGrpc$MedicationServiceMethodDescriptorSupplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/grpc/MedicationServiceGrpc$MedicationServiceMethodDescriptorSupplier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/grpc/MedicationServiceGrpc$MedicationServiceStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/grpc/MedicationServiceGrpc$MedicationServiceStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/grpc/MedicationServiceGrpc$MethodHandlers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/grpc/MedicationServiceGrpc$MethodHandlers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/grpc/MedicationServiceGrpc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/grpc/MedicationServiceGrpc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/grpc/MedicationServiceOuterClass$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/grpc/MedicationServiceOuterClass$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/grpc/MedicationServiceOuterClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/grpc/MedicationServiceOuterClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/proto/MedicationService.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/proto/MedicationService.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/services/MedicationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/MedicationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/medication_dispenser_server-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/medication_dispenser_server-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,43 +44,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GRPCServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/proto/MedicationService.proto">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/services/MedicationService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="63" column="39" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -69,118 +55,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/GrpcServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/services/GRPCServer.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/hibernate/util/HibernateUtil.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/hibernate/HibernateMedicationDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/entities/Medication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/hibernate/HibernatePrescriptionDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/entities/Prescription.java" />
-        <option value="$PROJECT_DIR$/src/main/java/GRPCServer.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/proto/MedicationService.proto" />
-        <option value="$PROJECT_DIR$/src/main/java/services/MedicationService.java" />
-      </list>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="medication_dispenser_server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1615" />
-    <option name="height" value="879" />
-  </component>
+  <component name="ProjectId" id="1UBv10JXXHYVGSRQJwbkj2r7OXD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="medication_dispenser_server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medication_dispenser_server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medication_dispenser_server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medication_dispenser_server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medication_dispenser_server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medication_dispenser_server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medication_dispenser_server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medication_dispenser_server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medication_dispenser_server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medication_dispenser_server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="grpc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medication_dispenser_server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medication_dispenser_server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medication_dispenser_server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medication_dispenser_server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medication_dispenser_server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medication_dispenser_server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="proto" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../medication_dispenser_client" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -227,160 +120,45 @@
       <option name="presentableId" value="Default" />
       <updated>1573736137225</updated>
       <workItem from="1573736140167" duration="14806000" />
-      <workItem from="1573806275935" duration="2988000" />
+      <workItem from="1573806275935" duration="3028000" />
+      <workItem from="1574262261989" duration="2584000" />
+      <workItem from="1574842199359" duration="72000" />
+      <workItem from="1574842590933" duration="453000" />
+      <workItem from="1574843074325" duration="216000" />
+      <workItem from="1574843317459" duration="72000" />
+      <workItem from="1575368620870" duration="2482000" />
+      <workItem from="1575407918269" duration="38000" />
+      <workItem from="1578666803034" duration="9818000" />
     </task>
+    <task id="LOCAL-00001" summary="implemented medication taken and not taken">
+      <created>1573813295689</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573813295689</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17794000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.75238097" visible="true" weight="0.2261745" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Persistence" order="3" sideWeight="0.24761905" side_tool="true" visible="true" weight="0.2261745" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="UI Designer" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40509915" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.16040269" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/services/GRPCServer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/hibernate/util/HibernateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Medication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Prescription.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/hibernate/HibernateMedicationDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/hibernate/HibernatePrescriptionDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#0#65#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/proto/MedicationService.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GRPCServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/services/MedicationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="63" column="39" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="implemented medication taken and not taken" />
+    <MESSAGE value="minor changes to work on docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor changes to work on docker" />
   </component>
 </project>

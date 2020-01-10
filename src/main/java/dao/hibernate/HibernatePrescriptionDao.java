@@ -16,7 +16,7 @@ public class HibernatePrescriptionDao
     public List<Prescription> findByDate(Date date)
     {
         Session currentSession = sessionFactory.openSession();
-        Query query = currentSession.createQuery("from Prescription as p where ?1 between p.startDate and p.endDate");
+        Query query = currentSession.createQuery("from Prescription as p where ?1 between p.startDate and p.endDate and p.patientId = 1");
         query.setParameter(1,date);
         List<Prescription> prescriptionList = query.getResultList();
         currentSession.close();

@@ -12,6 +12,7 @@ import static javax.persistence.GenerationType.IDENTITY;
 @Entity
 @Getter
 @Setter
+@Table(name = "prescription")
 public class Prescription
 {
     @Id
@@ -20,7 +21,7 @@ public class Prescription
     private Integer id;
 
     @ManyToOne
-    @JoinColumn(nullable = false)
+    @JoinColumn(name = "medication_id", nullable = false)
     private Medication medication;
 
     @Column(name = "daily_interval", nullable = false)

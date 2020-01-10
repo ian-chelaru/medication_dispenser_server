@@ -25,6 +25,8 @@ public class MedicationService extends MedicationServiceImplBase
     @Override
     public void getMedication(MedicationRequest request,StreamObserver<MedicationResponse> responseObserver)
     {
+        System.out.println("GET MEDICATION REQUEST");
+
         List<Prescription> prescriptionList = prescriptionDao.findByDate(new Date());
         MedicationResponse.Builder response = MedicationResponse.newBuilder();
         Medication.Builder medicationBuilder = Medication.newBuilder();
